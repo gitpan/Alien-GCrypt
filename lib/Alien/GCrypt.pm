@@ -6,7 +6,9 @@ package Alien::GCrypt;
 BEGIN {
   $Alien::GCrypt::AUTHORITY = 'cpan:AJGB';
 }
-$Alien::GCrypt::VERSION = '1.6.2.0';
+$Alien::GCrypt::VERSION = '1.6.2.1';
+use Alien::GPG::Error;
+
 use parent 'Alien::Base';
 
 1;
@@ -23,7 +25,7 @@ Alien::GCrypt - Install and make available libgcrypt
 
 =head1 VERSION
 
-version 1.6.2.0
+version 1.6.2.1
 
 =head1 SYNOPSIS
 

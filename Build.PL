@@ -30,13 +30,14 @@ my %module_build_args = (
     "Alex J. G. Burzy\x{144}ski <ajgb\@cpan.org>"
   ],
   "dist_name" => "Alien-GCrypt",
-  "dist_version" => "1.6.2.0",
+  "dist_version" => "1.6.2.1",
   "license" => "perl",
   "module_name" => "Alien::GCrypt",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
     "Alien::Base" => "0.002",
+    "Alien::GPG::Error" => 0,
     "File::ShareDir" => "1.03",
     "parent" => 0,
     "strict" => 0,

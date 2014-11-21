@@ -2,7 +2,7 @@ NAME
     Alien::GCrypt - Install and make available libgcrypt
 
 VERSION
-    version 1.6.2.0
+    version 1.6.2.1
 
 SYNOPSIS
         use Alien::GCrypt;
